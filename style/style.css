@@ -154,6 +154,10 @@
 .card-3{
     border: 1px solid rgb(250, 215, 242);
 }
+/* footer start here */
+.last-part{
+    justify-content: space-between;
+}
 
 /* Responsive start here */
 @media screen and (max-width: 576px) {
