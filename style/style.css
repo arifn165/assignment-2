@@ -60,10 +60,45 @@
     display: none;
 }
 /* navbar end here */
+/* banner section start here */
+.banner{
+    max-width: 1158px;
+    max-height: 575px;
+    margin: 20px 141px;
+    
+}
+.container{
+    width: 640px;
+    height: 331px;
+    margin-top: 122px;
+    }
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.banner-content{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 15px auto;
+}
+.banner-btn{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: black;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+}
+.banner-img{
+    width: 468px;
+    height: 575px;
+}
 /* Responsive start here */
 @media screen and (max-width: 576px) {
     .navbar{
-        max-width: 358px;
+        width: 358px;
+        height: 46px;
         margin: 12px auto;
         justify-content: space-between;
     }
@@ -86,6 +121,24 @@
     }
     .brand-title{
         display: none;
+    }
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+        width: 357px;
+        height: 725px;
+        margin: 270px auto;
+    }
+    .container{
+        width: 357px;
+        height: 250px;
+        margin-top: 30px;
+        
+    }
+    .banner-img{
+        width: 336px;
+        height: 413px;
+        
     }
     
     }
