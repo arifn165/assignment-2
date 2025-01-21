@@ -14,9 +14,9 @@
 }
 .navbar{
     justify-content: space-between;
-    width: 1160px;
-    height: 62px;
-    margin: 20px auto;
+    max-width: 1440px;
+    
+    margin: 20px 140px;
     align-items: center;
 }
 .list-item{
@@ -32,13 +32,13 @@
     margin-top: 20px;
 }
 .brand-title{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 2rem;
     margin-top: 37px;
 }
 .list-item{
     margin-top: 37px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 1.25rem;
 }
 .nav-btn{
@@ -51,4 +51,42 @@
     color: white;
     margin-top: 26px;
 }
+.toggle{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    margin-top: 36px;
+    display: none;
+}
 /* navbar end here */
+/* Responsive start here */
+@media screen and (max-width: 576px) {
+    .navbar{
+        max-width: 358px;
+        margin: 12px auto;
+        justify-content: space-between;
+    }
+    .brand-img{
+            max-width: 46px;
+            max-height: 46px;
+            
+        }
+    .nav-links{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .toggle{
+        width: 30px;
+        height: 30px;
+        display: block;
+        
+    }
+    .brand-title{
+        display: none;
+    }
+    
+    }
+    
