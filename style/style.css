@@ -146,19 +146,115 @@
 }
 .card-1{
     border: 1px solid rgb(250, 215, 242);
+    background: linear-gradient(#DEF5FF,#FFFFFF);
+    border-radius: 19px;
     
 }
 .card-2{
     border: 1px solid rgb(250, 215, 242);
+    background: linear-gradient(#FFF4DC,#FFFFFF);
+    border-radius: 19px;
 }
 .card-3{
     border: 1px solid rgb(250, 215, 242);
+    background: linear-gradient(#F2E8FF,#FFFFFF);
+    border-radius: 19px;
 }
 /* footer start here */
 .last-part{
     justify-content: space-between;
 }
+/* collage start here */
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 197px 140px;
+    gap: 18px;
+    
+    
+}
+.collage-img{
+    background: linear-gradient(#FFF4DC,#FFFFFF);
+    
+}
+.collage-1{
+    background-color: #F2E8FF;
+    width: 540px;
+    height: 630px;
 
+}
+.collage-img-1{
+    height: 50%;
+    width: 100%;
+}
+.collage-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    width: 601px;
+    height: 630px;
+}
+.collage-h{
+    font-weight: 700px;
+    font-size: 1.5rem;
+    margin: 58px 99.43px 50px 38.45px;
+}
+.collage-content-1{
+    font-weight: 400px;
+    font-size: 1rem;
+    margin: 0px 68px 34px 38.45px;
+}
+.cards{
+    width: 290.70px;
+    height: 301px;
+    border-radius: 16px;
+    background-color: gray;
+}
+.cards-img{
+    width: 291px;
+    height: 177px;
+    border-radius: 16px 16px 0px 0px;
+}
+.cards-title{
+    font-weight: 700px;
+    font-size: 1rem;
+    margin: 33px 54px 33px 37px;
+}
+.collage-btn{
+    width: 174px;
+    height: 48px;
+    border-radius: 48px;
+    margin-top: -0px;
+}
+.collage-btn-1{
+    width: 174px;
+    height: 48px;
+    border-radius: 48px;
+    margin-top: -100px;
+}
+
+
+/* footer start here */
+.my-footer{
+    max-width: 1439;
+    max-height: 519;
+    background-color: #01ACFD;
+    display: flex;
+}
+.last-part{
+    width: 1071px;
+    height: 222px;
+    display: flex;
+}
+.footer-brand{
+    width: 300;
+    height: 81;
+    
+}
+.f-brand-img{
+    width: 80px;
+    height: 80px;
+}
 /* Responsive start here */
 @media screen and (max-width: 576px) {
     .navbar{
