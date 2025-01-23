@@ -168,10 +168,20 @@
 .row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 197px 140px;
+    margin: 80px 140px;
     gap: 18px;
+   
+}
+.story-title{
+    font-weight: 700px;
+    font-size: 2.8rem;
+    margin: 60px 489.7px;
+    padding-top: 80px;
+    padding-left: 90px;
     
-    
+}
+.banner-btn{
+    margin: 40px 621px 60px 621px;
 }
 .collage-img{
     background: linear-gradient(#FFF4DC,#FFFFFF);
@@ -181,11 +191,13 @@
     background-color: #F2E8FF;
     width: 540px;
     height: 630px;
+    border-radius: 16px;
 
 }
 .collage-img-1{
-    height: 50%;
-    width: 100%;
+    width: 540px;
+    height: 337px;
+    border-radius: 16px 16px 0px 0px;
 }
 .collage-2{
     display: grid;
@@ -220,41 +232,13 @@
     font-size: 1rem;
     margin: 33px 54px 33px 37px;
 }
-.collage-btn{
-    width: 174px;
-    height: 48px;
-    border-radius: 48px;
-    margin-top: -0px;
-}
-.collage-btn-1{
-    width: 174px;
-    height: 48px;
-    border-radius: 48px;
-    margin-top: -100px;
-}
+
+
 
 
 /* footer start here */
-.my-footer{
-    max-width: 1439;
-    max-height: 519;
-    background-color: #01ACFD;
-    display: flex;
-}
-.last-part{
-    width: 1071px;
-    height: 222px;
-    display: flex;
-}
-.footer-brand{
-    width: 300;
-    height: 81;
-    
-}
-.f-brand-img{
-    width: 80px;
-    height: 80px;
-}
+
+
 /* Responsive start here */
 @media screen and (max-width: 576px) {
     .navbar{
@@ -334,6 +318,59 @@
         margin: auto;
         padding-left: 200px ;
 
+    }
+    .collage-img{
+        margin-top: 400px;
+        width: 390px;
+        height: 548px;
+        
+    }
+    .row{
+        margin: 100px 16px;
+
+    }
+    .collage-1{
+        display: none;
+        
+    }
+    .story-title{
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .collage-2{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: left;
+        width: 358px;
+        height: 350px;
+        margin: -50px 16px 10px 16px;      
+    }
+
+    .cards{
+        width: 173px;
+        height: 179px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+        justify-content: center;
+        gap: 10%;       
+    }
+    .cards-img{
+        width: 173px;
+        height: 105.39px;
+    }
+    .cards-title{
+        width: 127px;
+        height: 34px;
+        font-weight: 700px;
+        font-size: .6rem;
+    }
+    .banner-btn{
+        
+        width: 134px;
+        height: 30px;
+        font-weight: 700px;
+        font-size: 1rem;
+        color: white;
     }
     
     }
